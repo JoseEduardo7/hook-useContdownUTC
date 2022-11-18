@@ -6,7 +6,7 @@ export const useCountdownUTC = (year, month, day, hour = 0, minute = 0) => {
 	const [hoursLeft, setHoursLeft] = useState(null);
 	const [minsLeft , setMinsLeft ] = useState(null);
 	const [secsLeft , setSecsLeft ] = useState(null);
-	const [finished , setFinished]  = useState(false);
+	const [finished , setFinished ] = useState(false);
 
 	useEffect(() => {
 		const interval = setInterval(() => {
